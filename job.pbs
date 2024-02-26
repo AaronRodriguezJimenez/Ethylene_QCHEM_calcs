@@ -1,0 +1,13 @@
+#!/bin/bash
+  
+  
+#- - - EDIT/ADAPT FOR YOUR CLUSTER CONFIGURATION
+#PBS -q qchem
+#PBS -l ncpus=6
+#PBS -l mem=400mb
+#PBS -N C2H4_NAME
+#PBS -e error.log
+#PBS -o output_NAME.log
+
+
+#- - - ADD INFORMATION FOR YOUR CALCULATION - - - 

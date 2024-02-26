@@ -1,0 +1,30 @@
+$molecule
+0 3
+ATOM_1
+ATOM_2
+ATOM_3
+ATOM_4
+ATOM_5
+ATOM_6
+$end
+
+$rem
+!****REFERENCE****
+BASIS              cc-pVDZ
+CORRELATION        RASCI
+EXCHANGE           HF
+UNRESTRICTED       FALSE
+SYM_IGNORE         TRUE
+MAX_SCF_CYCLES     999
+
+!****RAS-SF****
+RAS_ROOTS          4
+RAS_ELEC           8  !electrones en RAS2
+RAS_ACT            7  !orbitales en RAS2
+RAS_OCC            4  !Orbitales en RAS1
+RAS_SPIN_MULT      0
+MAX_CIS_CYCLES     300
+
+$end
+
+
